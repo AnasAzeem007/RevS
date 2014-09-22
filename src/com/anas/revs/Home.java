@@ -1,7 +1,3 @@
-/**
- * Commiting
- */
-
 package com.anas.revs;
 
 import java.util.ArrayList;
