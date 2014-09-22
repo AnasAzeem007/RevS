@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_notexpanded" android:state_empty="true"/>
+    <item android:drawable="@drawable/ic_expnaded" android:state_expanded="false"/>
+
+</selector> -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">            
+           <item android:drawable="@drawable/ic_notexpanded" android:state_empty="true">  </item>            
+           <item android:drawable="@drawable/ic_expnaded" android:state_expanded="true"></item>                
+           <item android:drawable="@drawable/ic_notexpanded"></item>
+     </selector>

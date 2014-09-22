@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#aaaaaa"
+    android:orientation="vertical" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ExpandableListView
+            android:id="@+id/lvExp"
+            android:layout_width="250dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:background="#d3d3d3"
+            android:divider="#c6c6c6"
+            android:dividerHeight="1dp"
+            android:transcriptMode="alwaysScroll" >
+        </ExpandableListView>
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>
